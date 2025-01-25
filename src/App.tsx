@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Card, CardContent, Button, Input } from "./components";
 import { api_instance } from "../api/api-config/api-instance";
 

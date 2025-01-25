@@ -1,7 +1,8 @@
 import axios from "axios";
+const apiEndpoint = import.meta.env.VITE_API_ENDPOINT;
 
 const config = {
-  baseURL: "http://localhost:3000",
+  baseURL: apiEndpoint,
   timeout: 2000,
 };
 
